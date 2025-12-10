@@ -1,21 +1,19 @@
-/* Stylesheet for Linux Commands */
-
+/*CSS for index.html on SecEthTools*/
 *{
     background-color: black;
 }
 
-h1,h3{
+h1{
     color: darkolivegreen;
     font-family: 'Courier New', Courier, monospace;
-}
-
-code{
-    background-color: darkgray;
-    color: darkolivegreen
 }
 
 a{
     color: darkolivegreen;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
+}
+
+li{
+    color: darkolivegreen;
 }
