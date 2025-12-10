@@ -1,1 +1,15 @@
 /* Stylesheet for Linux Commands */
+
+*{
+    background-color: black;
+}
+
+h1,h3{
+    color: darkolivegreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+code{
+    background-color: darkgray;
+    color: darkolivegreen
+}
