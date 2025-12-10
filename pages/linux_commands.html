@@ -8,6 +8,19 @@
     <body>
         <h1>Linux Commands</h1>
         <ul>
+
+            <!-- Manual Command -->
+            <h3>Linux Manual</h3>
+            <li>
+                <code>man ls</code>
+            </li>
+
+            <!-- Switch User -->
+            <h3>Switch User</h3>
+            <li>
+                <code>su username</code>
+            </li>
+
             <!-- Echo  CMD -->
             <h3>Output</h3>
             <li>
@@ -24,7 +37,8 @@
             <h3>List Files</h3>
             <li>
                 <code>ls</code>
-                <code>ls -a</code>
+                <code>ls -a (All)</code>
+                <code>ls -lh (Permissons)</code>
                 
             </li>
 
@@ -57,6 +71,88 @@
             <li>
                 <code>grep "content" example.txt</code>
             </li>
+
+            <!-- SSH CMD -->
+            <h3>Secure Shell (SSH)</h3>
+            <li>
+                <code>ssh username@ipaddress</code>
+            </li>
+
+            <!-- touch CMD -->
+            <h3>Create a file</h3>
+            <li>
+                <code>touch filename.txt</code>
+            </li>
+
+            <!-- mkdir CMD -->
+            <h3>Make A Directory</h3>
+            <li>
+                <code>mkdir directoryname</code>
+            </li>
+
+            <!-- Copy CMD -->
+            <h3>Copy a file or directory</h3>
+            <li>
+                <code>cp file1 file2</code>
+            </li>
+
+            <!-- Move CMD -->
+            <h3>Move a file or directory</h3>
+            <li>
+                <code>mv file1 file2</code>
+            </li>
+
+            <!-- Remove CMD -->
+            <h3>Remove a file or directory</h3>
+            <li>
+                <code>rm file.txt</code>
+                <code>rem -R directory</code>
+            </li>
+
+            <!-- File CMD -->
+            <h3>Determine a File type</h3>
+            <li>
+                <code>file note</code>
+            </li>
+
+            <!-- Nano/VIM CMD-->
+            <h3>Edit file in terminal</h3>
+            <li>
+                <code>nano filename (Opens VIM)</code>
+            </li>
+
+            <!-- wget CMD-->
+            <h3>Downloading Files (wget)</h3>
+            <li>
+                <code>wget https://website.com/filename.txt</code>
+            </li>
+
+            <!-- PIDs -->
+            <h3>Processes (PIDs)</h3>
+            <li>
+                <code>ps (View Process)</code>
+                <code>ps aux</code>
+                <code> kill 1337 (Kill process 1337)</code>
+                <code>SIGTERM (Kill Process, Cleanup tasks beforehand)</code>
+                <code>SIGKILL (Kll process, No cleanup after)</code>
+                <code>SIGSTOP (Stop/suspend a process)</code>
+            </li>
+
+            <!-- Search Logs -->
+            <h3>Search Logs</h3>
+            <li>
+                <code>/var/log (Where logs are stored on Linux machine)</code>
+            </li>
+
+            <!-- Common Directories -->
+            <h3>Common Directories</h3>
+            <li>
+                <code>/etc (Stores system files used by OS)</code>
+                <code>/var (Stores data that is freq. accessed ex. log files)</code>
+                <code>/root (Home for the "root" system user)</code>
+                <code>/tmp (Volatile directory used for data that is rarely accesses like once or twice. Like RAM, when computer is rebooted, this folder is wiped)</code>
+            </li>
+
         </ul>
         <a href="../index.html">Home</a>
     </body>
