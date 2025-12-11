@@ -1,0 +1,21 @@
+/* Stylesheet for Windows Fundamentals */
+
+*{
+    background-color: black;
+}
+
+h1,h3{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+code{
+    background-color: darkgray;
+    color: blue
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
